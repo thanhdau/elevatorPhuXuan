@@ -1,0 +1,170 @@
+:root {
+    --primary-color: #003056;
+    --second-color: #eff6ff;
+    --third-color: #003056;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #8e8e8e;
+    --title-color: #adb5bd;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
+.btn--large {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 16px 48px;
+    background-color: transparent;
+    border: 2px solid var(--white-color);
+    transition: all linear 0.175s;
+}
+
+
+.btn--small {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 6px 20px;
+    background-color: transparent;
+    border: 2px solid var(--white-color);
+    transition: all linear 0.175s;
+}
+
+
+.title-header h3 {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: var(--title-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.title-header h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+}
+
+.title-header p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.jc-center {
+    display: flex;
+    justify-content: center;
+}
+
+.ai-center {
+    display: flex;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-black {
+    color: var(--primary-color);
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+
+html {
+box-sizing: border-box;
+font-size: 62.5%;
+font-family: 'Mulish', sans-serif;
+scroll-behavior: smooth;
+
+}
+
+body {
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul, li {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+display: block;
+max-width: 100%;
+}
+
+*,*:before,*:after {
+box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button{
+outline: none;
+}
+
+input{
+line-height: normal;
+}
+
+label,
+button{
+cursor: pointer;
+}
+
+.padding-30{
+    padding:  150px 0 0 0 !important;
+}
